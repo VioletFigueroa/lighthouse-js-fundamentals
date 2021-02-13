@@ -1,0 +1,1 @@
+const howManyHundreds = (num) => (num < 100 ? 0 : (num - (num % 100)) / 100);
